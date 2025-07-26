@@ -45,7 +45,7 @@ const AnimatedIntro = () => {
 
   return (
     <section>
-      <p className="text-5xl font-extrabold leading-tight mb-6">
+      <p className=" text-xl md:text-5xl font-extrabold leading-tight mb-6">
         I'm <br />
         <span className={`${colorClass} min-h-[1em] inline-block`}>
           {text}

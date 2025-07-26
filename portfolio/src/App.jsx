@@ -4,7 +4,8 @@ import "./App.css";
 import LoadingScreen from "./components/LoadingScreen";
 import "./index.css";
 import Navbar from "./components/Navbar";
-import Home from "./components/sections/home/Home";
+import Home from "./components/home/Home";
+import Technologies from "./components/Technologies";
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -22,6 +23,7 @@ function App() {
           >
             <Navbar />
             <Home />
+            <Technologies />
           </div>
         </div>
       </div>

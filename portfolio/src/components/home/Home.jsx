@@ -5,21 +5,20 @@ const Home = () => {
   return (
     <div className="md:flex md:justify-between md:px-20 p-6 md:py-6 items-start text-white">
       {/* Left side: */}
-      <div className="md:w-1/2 mb-12 md:mb-0 text-center md:text-left">
-        <h1 className="text-amber-400 uppercase tracking-widest font-semibold text-sm mb-2">
+      <div className="md:w-1/2 mb-12 md:mb-15 text-left">
+        <h1 className="text-xs sm:text-sm text-amber-400 uppercase tracking-widest font-semibold mb-2">
           Full Stack Developer
         </h1>
+
         <AnimatedIntro />
-        {/* <p className="text-5xl md:text-5xl font-extrabold leading-tight mb-6">
-          I'm <br /> <span className="text-amber-400">Alish Shakya</span>,
-        </p> */}
+
         <p className="text-gray-300 text-lg md:text-xl mb-8">
           I create clean, efficient, and user-friendly web applications using
           modern technologies like React and Node.js. Passionate about turning
           ideas into seamless digital experiences. Let’s build something great
           together!
         </p>
-        <div className="flex justify-center md:justify-start gap-6">
+        <div className="hidden md:flex justify-center md:justify-start gap-6">
           <a
             href="#contact"
             className="px-8 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-500 transition-colors duration-300"
@@ -64,6 +63,22 @@ if (alish.hireable()) {
 }`}
           </pre>
         </div>
+      </div>
+
+      <div className="flex justify-start gap-4 m-4 md:hidden">
+        <a
+          href="#contact"
+          className="px-8 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md"
+        >
+          Hire Me
+        </a>
+        <a
+          href="/path-to-your-cv.pdf"
+          download
+          className="px-8 py-3 bg-amber-400 text-black font-semibold rounded-lg shadow-md"
+        >
+          Download CV
+        </a>
       </div>
     </div>
   );

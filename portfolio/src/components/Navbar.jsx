@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav className="md:flex items-center justify-between py-6">
       {/* nav logo */}
-      <div className="m-8 flex flex-shrink-0 items-center md: text-4xl font-bold">
+      <div className=" m-5 text-2xl md:m-8 flex flex-shrink-0 items-center md:text-4xl font-bold">
         <a href="/"> Shakya.tech</a>
       </div>
 
@@ -29,7 +29,7 @@ const Navbar = () => {
       </div>
 
       {/* nav social link */}
-      <div className=" m-5 md:m-10 md:flex items-center justify-center md:gap-4 text-2xl">
+      <div className="flex items-center gap-4 ml-5 md:mr-10 text-2xl">
         <a
           href="https://www.Facebook.com"
           target="_blank"
