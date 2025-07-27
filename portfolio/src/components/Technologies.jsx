@@ -19,10 +19,12 @@ const Technologies = () => {
   return (
     <>
       <div className="pb-1"></div>
-      <h2 className="my-8 text-4xl text-center text-amber-400">Technologies</h2>
+      <h2 className="my-8 mx-8 text-2xl md:text-4xl md:text-center text-amber-400">
+        Tools & Technologies
+      </h2>
 
       {/* upper tech  */}
-      <div className="flex md:flex-wrap items-center justify-center gap-4 md:gap-30  text-3xl md:text-4xl">
+      <div className="flex md:flex-wrap items-center justify-center gap-5 md:gap-30  text-2xl md:text-4xl">
         <div>
           <FaHtml5 className=" text-orange-500" />
         </div>
@@ -49,7 +51,7 @@ const Technologies = () => {
       </div>
 
       {/* lower tech  */}
-      <div className=" md:ml-20 flex md:flex-wrap items-center justify-center gap-4 md:gap-30 p-10 text-3xl md:text-4xl">
+      <div className=" md:ml-20 flex md:flex-wrap items-center justify-center gap-5 md:gap-30 p-10 text-2xl md:text-4xl">
         <div>
           <SiTailwindcss className=" text-sky-400" />
         </div>
