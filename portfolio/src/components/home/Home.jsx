@@ -39,7 +39,7 @@ const Home = () => {
       <div className="relative md:w-1/2 rounded-2xl p-[2px] overflow-hidden group">
         <div className="absolute inset-0 animate-gradient-border bg-[conic-gradient(from_0deg,_#facc15,_#22c55e,_#f43f5e,_#facc15)] blur-sm" />
         <div className="relative z-10 bg-[#0f172a] text-sm rounded-2xl p-6 font-mono border border-transparent transition-all duration-300">
-          <pre className="text-green-300 text-2xl transform transition-transform duration-300 group-hover:translate-y-[-4px] group-hover:scale-105">
+          <pre className="text-green-300 transform transition-transform duration-300 group-hover:translate-y-[-4px] group-hover:scale-105">
             {`const alish = {
   name: "Alish Shakya",
   stack: ["React","Node.js",
@@ -85,3 +85,4 @@ if (alish.hireable()) {
 };
 
 export default Home;
+  

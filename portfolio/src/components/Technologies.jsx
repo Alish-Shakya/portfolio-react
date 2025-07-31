@@ -14,6 +14,7 @@ import {
   FaGithub,
   FaGitAlt,
 } from "react-icons/fa";
+import GithubIcon from "./ui/icons/GithubIcon";
 
 const Technologies = () => {
   return (
@@ -57,7 +58,7 @@ const Technologies = () => {
         </div>
 
         <div>
-          <FaGithub className=" text-white" />
+          <GithubIcon />
         </div>
 
         <div>
