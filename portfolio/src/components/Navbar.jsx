@@ -16,7 +16,7 @@ const Navbar = () => {
       </div>
 
       {/* nav link  */}
-      <div className="hidden md:flex gap-6 mt-4 md:mt-0">
+      {/* <div className="hidden md:flex gap-6 mt-4 md:mt-0">
         {["Home", "About", "Skills", "Contact"].map((link, index) => (
           <a
             key={index}
@@ -26,7 +26,7 @@ const Navbar = () => {
             {link}
           </a>
         ))}
-      </div>
+      </div> */}
 
       {/* nav social link */}
       <div className="flex items-center gap-4 ml-5 md:mr-10 text-2xl">

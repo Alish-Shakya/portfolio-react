@@ -18,17 +18,17 @@ const Home = () => {
           ideas into seamless digital experiences. Let’s build something great
           together!
         </p>
-        <div className="hidden md:flex justify-center md:justify-start gap-6">
+        <div className="hidden  ml-15 mt-20 md:flex justify-center md:justify-start gap-10">
           <a
             href="#contact"
-            className="px-8 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-500 transition-colors duration-300"
+            className="px-8 py-3 border-1 border-green-400 text-white font-semibold rounded-lg shadow-md transition-all duration-300"
           >
             Hire Me
           </a>
           <a
             href="/path-to-your-cv.pdf"
             download
-            className="px-8 py-3 bg-amber-400 text-black font-semibold rounded-lg shadow-md hover:bg-yellow-300 transition-colors duration-300"
+            className="px-8 py-3 border-1 border-green-400 text-white font-semibold rounded-lg shadow-md transition-colors duration-300"
           >
             Download CV
           </a>
@@ -65,6 +65,7 @@ if (alish.hireable()) {
         </div>
       </div>
 
+      {/* for small screen */}
       <div className="flex justify-start gap-4 m-4 md:hidden">
         <a
           href="#contact"
@@ -85,4 +86,3 @@ if (alish.hireable()) {
 };
 
 export default Home;
-  
