@@ -18,17 +18,17 @@ const Home = () => {
           ideas into seamless digital experiences. Let’s build something great
           together!
         </p>
-        <div className="hidden  ml-15 mt-20 md:flex justify-center md:justify-start gap-10">
+        <div className="hidden  ml-15 mt-20 md:flex justify-center md:justify-start gap-10 ">
           <a
             href="#contact"
-            className="px-8 py-3 border-1 border-green-400 text-white font-semibold rounded-lg shadow-md transition-all duration-300"
+            className="px-8 py-3 border-1 border-green-400 text-white font-semibold rounded-lg transform hover:-translate-y-1 transition duration-400"
           >
             Hire Me
           </a>
           <a
             href="/path-to-your-cv.pdf"
             download
-            className="px-8 py-3 border-1 border-green-400 text-white font-semibold rounded-lg shadow-md transition-colors duration-300"
+            className="px-8 py-3 border-1 border-green-400 text-white font-semibold rounded-lg transform hover:-translate-y-1  transition duration-400"
           >
             Download CV
           </a>

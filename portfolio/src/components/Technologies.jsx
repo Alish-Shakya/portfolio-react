@@ -10,6 +10,17 @@ import { FaHtml5, FaCss3Alt, FaJs, FaNodeJs, FaGitAlt } from "react-icons/fa";
 import GithubIcon from "./ui/icons/GithubIcon";
 
 import { animate, motion } from "framer-motion";
+import HtmlIcon from "./ui/icons/HtmlIcon";
+import CssIcon from "./ui/icons/CssIcon";
+import JsIcon from "./ui/icons/JsIcon";
+import ReactIcon from "./ui/icons/ReactIcon";
+import NodeIcon from "./ui/icons/NodeIcon";
+import MongoIcon from "./ui/icons/MongoIcon";
+import TailwindIcon from "./ui/icons/TailwindIcon";
+import GitIcon from "./ui/icons/GitIcon";
+import ExpressIcon from "./ui/icons/ExpressIcon";
+import PostmanIcon from "./ui/icons/PostmanIcon";
+import VsCodeIcon from "./ui/icons/VsCodeIcon";
 
 const iconvariants = (duration) => ({
   initial: { y: -10 },
@@ -44,7 +55,7 @@ const Technologies = () => {
           animate="animate"
           variants={iconvariants(2.5)}
         >
-          <FaHtml5 className=" text-orange-500" />
+          <HtmlIcon />
         </motion.div>
 
         <motion.div
@@ -52,7 +63,7 @@ const Technologies = () => {
           animate="animate"
           variants={iconvariants(2.5)}
         >
-          <FaCss3Alt className=" text-blue-500" />
+          <CssIcon />
         </motion.div>
 
         <motion.div
@@ -60,7 +71,7 @@ const Technologies = () => {
           animate="animate"
           variants={iconvariants(2.5)}
         >
-          <FaJs className=" text-yellow-400" />
+          <JsIcon />
         </motion.div>
 
         <motion.div
@@ -68,7 +79,7 @@ const Technologies = () => {
           animate="animate"
           variants={iconvariants(2.5)}
         >
-          <RiReactjsLine className=" text-cyan-400" />
+          <ReactIcon />
         </motion.div>
 
         <motion.div
@@ -76,7 +87,7 @@ const Technologies = () => {
           animate="animate"
           variants={iconvariants(2.5)}
         >
-          <FaNodeJs className=" text-green-600" />
+          <NodeIcon />
         </motion.div>
 
         <motion.div
@@ -84,7 +95,7 @@ const Technologies = () => {
           animate="animate"
           variants={iconvariants(2.5)}
         >
-          <SiMongodb className=" text-green-400" />
+          <MongoIcon />
         </motion.div>
       </motion.div>
 
@@ -100,7 +111,7 @@ const Technologies = () => {
           animate="animate"
           variants={iconvariants(2.5)}
         >
-          <SiTailwindcss className="text-sky-400" />
+          <TailwindIcon />
         </motion.div>
 
         <motion.div
@@ -116,7 +127,7 @@ const Technologies = () => {
           animate="animate"
           variants={iconvariants(2.5)}
         >
-          <FaGitAlt className="text-red-500" />
+          <GitIcon />
         </motion.div>
 
         <motion.div
@@ -124,7 +135,7 @@ const Technologies = () => {
           animate="animate"
           variants={iconvariants(2.5)}
         >
-          <SiExpress className="text-gray-300" />
+          <ExpressIcon />
         </motion.div>
 
         <motion.div
@@ -132,7 +143,7 @@ const Technologies = () => {
           animate="animate"
           variants={iconvariants(2.5)}
         >
-          <SiPostman className="text-orange-600" />
+          <PostmanIcon />
         </motion.div>
 
         <motion.div
@@ -140,7 +151,7 @@ const Technologies = () => {
           animate="animate"
           variants={iconvariants(2.5)}
         >
-          <SiCisco className="text-blue-600" />
+          <VsCodeIcon />
         </motion.div>
       </motion.div>
     </>
