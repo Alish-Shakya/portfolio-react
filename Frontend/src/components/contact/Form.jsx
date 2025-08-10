@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import axios from "axios";
+import { ToastContainer, toast } from "react-toastify";
 
 const Form = () => {
   let [fullName, setFullName] = useState("");
@@ -7,20 +9,29 @@ const Form = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
-    console.log({
-      fullName,
-      email,
-      message,
-    });
-    alert("Your message has been sent Successfully");
-
-    setFullName("");
-    setEmail("");
-    setMessage("");
+    let result = {
+      fullName: fullName,
+      email: email,
+      message: message,
+    };
+    try {
+      let data = await axios({
+        url: "http://localhost:5000/contact/create",
+        method: "post",
+        data: result,
+      });
+      console.log(data);
+      alert("message sent successfully");
+      setFullName("");
+      setEmail("");
+      setMessage("");
+    } catch (error) {
+      console.log(error);
+    }
   };
   return (
     <form className="space-y-6">
+      <ToastContainer theme="dark" />
       <div>
         <label htmlFor="fullName" className="block mb-2 font-semibold">
           Full Name
