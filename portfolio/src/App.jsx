@@ -6,6 +6,7 @@ import "./index.css";
 import Navbar from "./components/Navbar";
 import Home from "./components/home/Home";
 import Technologies from "./components/Technologies";
+import Contact from "./components/contact/Contact";
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -24,6 +25,7 @@ function App() {
             <Navbar />
             <Home />
             <Technologies />
+            <Contact />
           </div>
         </div>
       </div>
