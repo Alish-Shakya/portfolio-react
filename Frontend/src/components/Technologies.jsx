@@ -1,12 +1,3 @@
-import { RiReactjsLine } from "react-icons/ri";
-import {
-  SiMongodb,
-  SiExpress,
-  SiPostman,
-  SiCisco,
-  SiTailwindcss,
-} from "react-icons/si";
-import { FaHtml5, FaCss3Alt, FaJs, FaNodeJs, FaGitAlt } from "react-icons/fa";
 import GithubIcon from "./ui/icons/GithubIcon";
 
 import { animate, motion } from "framer-motion";
@@ -39,7 +30,7 @@ const Technologies = () => {
   return (
     <>
       <div className="pb-1"></div>
-      <h2 className="my-8 mx-8 text-2xl md:text-4xl md:text-center text-amber-400">
+      <h2 className="my-8 mx-8 text-2xl md:text-4xl md:text-center text-green-400">
         Tools & Technologies
       </h2>
 

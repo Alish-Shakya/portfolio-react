@@ -1,11 +1,9 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebook,
-  faGithub,
-  faInstagram,
-  faLinkedin,
-} from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import FacebookIcon from "./ui/icons/FacebookIcon";
+import Instagram from "./ui/icons/Instagram";
+import Linkedin from "./ui/icons/Linkedin";
 
 const Navbar = () => {
   return (
@@ -35,9 +33,9 @@ const Navbar = () => {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Facebook"
-          className="hover:text-blue-600 transform hover:-translate-y-1 transition duration-300"
+          className="transform hover:-translate-y-1 transition duration-300"
         >
-          <FontAwesomeIcon icon={faFacebook} />
+          <FacebookIcon />
         </a>
         <a
           href="https://www.github.com"
@@ -53,18 +51,18 @@ const Navbar = () => {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn"
-          className="hover:text-blue-400 transform hover:-translate-y-1 transition duration-300"
+          className="transform hover:-translate-y-1 transition duration-300"
         >
-          <FontAwesomeIcon icon={faLinkedin} />
+          <Linkedin />
         </a>
         <a
           href="https://www.instagram.com"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="InstagramS"
-          className="hover:text-red-600 transform hover:-translate-y-1 transition duration-300"
+          className="transform hover:-translate-y-1 transition duration-300"
         >
-          <FontAwesomeIcon icon={faInstagram} />
+          <Instagram />
         </a>
       </div>
     </nav>
